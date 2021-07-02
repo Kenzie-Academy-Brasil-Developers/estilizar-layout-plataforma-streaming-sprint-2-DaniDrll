@@ -35,7 +35,6 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*PÁGINA INICIAL*/
 	div.pg-home{
-		
 	}
 
 	img {
@@ -67,6 +66,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	li {
 		list-style: none;
 		max-width: 186px;
+		max-height: 858px;
 	}
 
 	footer {
