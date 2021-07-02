@@ -21,12 +21,13 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 	body{
-
+		background-color: #00002e;
+		font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
 	}
 
 /*TOPO*/
 	header.topo{
-		
+		display: flex;
 	}
 
 /*RODAPÉ*/
@@ -36,3 +37,65 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	div.pg-home{
 		
 	}
+
+	img {
+		width: 100%;
+	}
+
+	h2 {
+		color: white;
+		font-size: 48px;
+		text-align: center;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	h3 {
+		display: flex;
+		color: white;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	li {
+		list-style: none;
+		max-width: 186px;
+	}
+
+	footer {
+		height:100%;
+		width:100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 40px;
+	}
+
+	button {
+		background-color: #00002e;
+		border: 1px solid;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: white;
+		border-radius: 5px;
+	}
+
+
+	@media screen and (max-width: 1280px) {
+		.topo {
+			width:100%;
+			justify-content: center;
+		}
+		button {
+			transform: translate(5%) ;
+		}
+	}
+
